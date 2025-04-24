@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>404 - TWG Tea</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #ffffff;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+    }
+
+    .logo {
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .logo img {
+      height: 60px;
+    }
+
+    .icon {
+      font-size: 20px;
+      padding: 0 10px;
+      cursor: pointer;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin: 40px 0 10px;
+    }
+
+    h2 {
+      font-size: 36px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .subtext {
+      margin: 20px 0;
+      font-size: 16px;
+    }
+
+    .homepage-link {
+      margin-top: 40px;
+      font-size: 18px;
+      color: #ffffff;
+      text-decoration: underline;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    .homepage-link:hover {
+      color: #1100ff;
+    }
+
+    #bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transform: scale(3.5); /* makes it appear larger */
+  }
+  </style>
+</head>
+<body>
+  <header>
+
+    <div class="logo">
+        <a href="https://www.twgtea.com">
+      <img src="logo2.png" alt="TWG Tea Logo">
+      </a>
+    </div>
+  
+
+    </div>
+  </header>
+
+  <main>
+    <h1>404</h1>
+    <p>Excuse me!</p>
+    <video autoplay muted loop id="bgVideo">
+        <source src="twg480.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    <h2>We Looked Everywhere</h2>
+    <p class="subtext">Time to go back to sipping some tea</p>
+    <a href="https://www.twgtea.com" class="homepage-link">Go to Homepage</a>
+  </main>
+</body>
+</html>
